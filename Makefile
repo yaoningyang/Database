@@ -2,10 +2,10 @@ CC = g++
 
 CFLAGS = -Wall -g -std=c++11
 
-SOURCES = microDB.cpp
+SOURCES = main.cpp
 
 # 指定生成的目标（可执行文件）
-EXECUTABLE = microDB
+EXECUTABLE = main
 
 all: $(EXECUTABLE)
 
